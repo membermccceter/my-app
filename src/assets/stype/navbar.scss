@@ -1,0 +1,73 @@
+
+.Appbar{
+
+    padding: 0 40px;
+    background-color: rgb(26, 26, 26);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+
+    &-container{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .Logo{
+            height: 45px;
+            width: 45px;
+    
+            img{
+                height: 100%;
+                width: 100%;
+                border-radius: 50%;
+                object-fit: cover;
+                
+            }
+        }
+    
+        ul{
+            
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+            gap: 30px;
+            li{
+                a{
+                    display: inline-block;
+                    font-size: 18px;
+                    color: aliceblue;
+                    font-weight: 500;
+                    text-decoration: none;
+                    &.active{
+
+                        color: aqua;
+                    }
+                }
+    
+            }
+        }
+        .navbar-action{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            
+            .btn{
+                color: azure;
+                border: none;
+                background-color: transparent;
+            }
+            .search{
+                height: 30px;
+                width: 300px;
+                background-color: aliceblue;
+                border-radius: 15px;
+                
+            }
+            
+        }
+
+    }
+
+
+}
